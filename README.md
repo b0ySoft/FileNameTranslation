@@ -1,4 +1,17 @@
 # FileNameTranslation
 翻译文件名称
 使用百度翻译API接口翻译目录文件名称
-百度翻译API申请:https://fanyi-api.baidu.com/product/11
+
+百度翻译API申请:
+https://fanyi-api.baidu.com/product/11
+
+翻译API版本切换(见2.5):
+https://fanyiapp.cdn.bcebos.com/api/doc/百度翻译开放平台通用翻译API服务升级说明.pdf
+
+标准版: 不需要认证, 单次最长请求1000字符, 每秒访问量=1, 免费5万字符/月
+
+高级版: 需个人认证, 单次最长请求6000字符, 每秒访问量=10, 免费100万字符/月
+
+尊享版: 需企业认证, 单次最长请求6000字符, 每秒访问量=100, 免费200万字符/月
+
+术语库: 面向个人及企业认证用户开放. 管理控制台-我的术语库 开通
